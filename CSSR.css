@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color:#000; background-size: cover; }
+
+.meow {background-image: url("fondoo.jpg"); background-size: cover; }
+
+.logo{ display: flex; align-items: center}
+
+.logo-img{ height:200px; margin-right:02px; margin-top:35px; align-items: center}
+
+h1 {color: gainsboro; background-color: navy ; border: medium #38383E; font-family:"Times New Roman", Times, serif; font-size: 40px; border-style: double; border-radius: 15px; text-align: center ; animation-name: GD; animation-duration:10s; animation-iteration-count: infinite ; animation-direction: alternate; } 
+
+@keyframes GD { from { font-size: 25px; color: #F2F3F3; background-color:#0E0B3B;} to{ font-size: 50px; color:#17174E; background-color: #2A2ACD; } }
+
+h2 {color:#9CF font-family: "Comic Sans MS", cursive; font-size: 20px; text-align:center;background-color:#069 ; border: medium #09C; border-style: dotted; border-radius: 15px }
+
+h3{color: #FFF; background-color: #039 ; border: medium #080C3B; font-family:"Times New Roman", Times, serif; font-size: 30px; border-style: double; border-radius: 25px; text-align: center; animation-name: cocina; animation-duration:2s; animation-iteration-count: infinite ; animation-direction: alternate; } 
+
+@keyframes cocina { from { box-shadow:8px 8px 12px #FFFFFF; transform:scale(0.5);} to{ box-shadow: 20px 20px 30px #66CCCC; transform:scale(1);} }
+
+.menus {font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; color: floralwhite; font-size:40Px; text-align: center; background-image: url("PECES.JPG")}
+
+.fondo {background-image: url(fondo.jpg); background-size:cover }
+
+.mens {font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif ; color: floralwhite; font-size:20Px; text-align: center; background-color:#003}
+
+.polaroid { background-color:white; padding:10px 10px 50px 10px; border:1px solid #BFBFBF; box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);animation-name:ent; animation-duration: 3s; animation-iteration-count: infinite; animation-direction: alternate-reverse; }
+
+@keyframes ent { from {filter: blur(0px)} to {filter: blur(03px)} }
+	
+.plato {font-family:"Times New Roman", Times, serif; color:#FFF; font-size:20px ; text-align:center; background-color: #306}
+
+.fotos{ -webkit-filter: brightness(50%); filter: brightness(110%); animation-name:fte; animation-duration: 5s; animation-iteration-count: infinite; animation-direction: alternate-reverse; }
+
+@keyframes fte { from { box-shadow: 2px 2px 5px #ADB0D6;} to { box-shadow: 10px 10px 20px #303249;} }
+
+.ptrs { filter:drop-shadow(8px 8px 10px gray); filter:saturate(2); animation-name:dest; animation-duration: 3s; animation-iteration-count: infinite; animation-direction: alternate-reverse; }
+
+@keyframes dest { from { transform:skewY(0deg);} to { transform:skewY(05deg);} }
+
+.postre {font-family: Arial, Helvetica, sans-serif; color: #F9F9F9; font-size:20px ; text-align:center; background-color: #336}
+
+.bebida {font-family: "Lucida Console", Monaco, monospace; color: #C7CDD3; font-size:20px ; text-align:center; background-color: #003}
+
+.fto { Filter:invert(20%); filter:contrast(25%); filter: brightness(80%); animation-name: sc; animation-duration:02s; animation-iteration-count: infinite ; animation-direction: alternate; } 
+
+@keyframes sc { from {transform: rotate(0deg);} to {transform: rotate(10deg);} }
+
+.titulo {font-family: "MS Serif", "New York", serif; color: #000; font-size:40Px; text-align: center; background-image:url(titulo.gif);animation-name: ban; animation-duration:06s; animation-iteration-count: infinite ; animation-direction: alternate; } 
+
+@keyframes ban { from { font-size: 25px; color: #F6F7FB;} to{ font-size: 40px; color:#01030E;} } 
+
+.ensalada {font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; color:#F4FDFC; font-size:20px ; text-align:center; background-color: #036}
+
+.salad { filter: sepia(60%); filter: drop-shadow(16px 16px 20px blue); filter: brightness(110%); animation-name: sl; animation-duration:04s; animation-iteration-count: infinite ; animation-direction: alternate; } 
+
+@keyframes sl { from { filter: blur(4px); transform:translate(0,4);} to {filter: blur (0px); transform:translate(1,0);} }
+
+h4 {color:#C8CCFD; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 25px; text-align:center;background-color:#31334E ; border:thick #0A0E40; border-style: dashed; border-radius: 15px; animation-name: miau; animation-duration:5s;animation-iteration-count: infinite ; animation-direction:alternate; } 
+
+@keyframes miau { from { font-size: 15px; color: #C8CCFD; margin:02%; transform:rotate(0 deg); filter: blur(3px)} to {font-size: 25px; color:#9DA0C3;  margin:05%; transform:rotate(180 deg); filter: blur (0px); } }  
+
+h5 {color:#000 font-family:"Trebuchet MS", Arial, Helvetica, sans-serif, cursive; font-size: 20px; text-align:center;background-color:#36C ; border: thin ; border-style: double; border-radius: 15px }
+
+h6 {color:#FFF; background-color:transparent; font-family:"Times New Roman", Times, serif; font-size:40px; align:center}
+
+.nmc { color:#FFF; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:35px;}
+
+.a { text-decoration:none; color:#FFF}
+
+.agua{ background-image:url(fondo%20agua.gif); background-size:contain}
+
+.ptf{ background-image:url(agua.gif); background-size:cover} 
+
+.ocea{ background-image:url(ocean.gif); background-size:cover}
+
+.bag{ background-image:url(beagua.gif); background-size:cover}
+
+.wate{ background-image:url(water.gif); background-size:cover}
+
+.nav-link { color:#FFF; font-family:"Times New Roman", Times, serif; font-size:25px; font-weight:600; padding-right:10px}
+
+header{ display: flex; height:70px ; background-color:#066; justify-content: space-between; align-items: center; padding:10px}
+
+button{ color:#FFF; font-family:"Times New Roman", Times, serif; font-size:20px; font-weight:bold; padding:10px 30px; border-radius:6px; border:#000 2px solid; box-shadow:#006 2px 2px 10px; background-color:#003; align-items:center; justify-content:center}
+
+button:hover{ background-color:#009}
+
+p{ font-size:1.25em}
+
+.container{ max-width:1400px; margin:auto}
+
+#pag{ display:flex; align-items:center; justify-content:center; text-align:center; flex-direction:column; height:90vh; color:#FFF; background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(fondito.jpeg); background-repeat:no-repeat; background-size:cover; background-position:center center;}
+
+#pew{ background-color:#003; color:#FFF}
+
+#pew .container{ text-align:center; padding: 200px 12px; display:flex;}
+
+footer{ background-color:#FFF;}
+
+footer p{ margin:0px; padding:12px; color:#666}
+
+footer .container{ height:50px; display:flex; justify-content:center; align-items: flex-end;}
+
+.ptt{ background-color:#000; background-size:cover}
+
+.containerpew{ display:flex;}
+
+.text{width:50%; text-align:initial; padding:50x 30px; text-align:center; margin-left:70px}
+	
+.img-container{ background-image:url(restau.jpg); background-position:center center; background-size:cover; width:400px; height:500px; margin: 50px 30px}	
+
+.row{ display:flex; align-items:center; justify-content:center; text-align:center; color:#FFF; background-image:url(barra.jpg); background-repeat:no-repeat; background-size:cover; background-position:center center; color:#FFF; font-family:"Times New Roman", Times, serif; font-size:45px; margin: 50px 50px 50px 50px}
+
+.fa-fa-spoon{ display:flex; align-items:center; justify-content:center; text-align:center; color:#FFF; background-color:#033; background-position:center center; color:#FFF; font-family:"Times New Roman", Times, serif; font-size:30px;}
+
+
